@@ -47,6 +47,7 @@ This project implements:
 
 ## Project Structure
 
+///
 src/
 └── bg/
     └── sofia/
@@ -68,6 +69,7 @@ src/
                         ├── SocialNetwork.java
                         ├── SocialNetworkImpl.java
                         └── Main.java
+///
 ## Getting Started
 
 1. Compile:  
