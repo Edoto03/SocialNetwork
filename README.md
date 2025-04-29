@@ -47,29 +47,25 @@ This project implements:
 
 ## Project Structure
 
-///
-src/
-└── bg/
-    └── sofia/
-        └── uni/
-            └── fmi/
-                └── mjt/
-                    └── socialnetwork/
-                        ├── exception/
-                        │   └── UserRegistrationException.java
-                        ├── post/
-                        │   ├── Post.java
-                        │   ├── ReactionType.java
-                        │   └── SocialFeedPost.java
-                        ├── profile/
-                        │   ├── UserProfile.java
-                        │   ├── DefaultUserProfile.java
-                        │   ├── Interest.java
-                        │   └── SortByNumberOfFriendsComparator.java
-                        ├── SocialNetwork.java
-                        ├── SocialNetworkImpl.java
-                        └── Main.java
-///
+```
+src
+└─ bg.sofia.uni.fmi.mjt.gameplatform.store
+    ├── exception/
+    │   └── UserRegistrationException.java
+    ├── post/
+    │   ├── Post.java
+    │   ├── ReactionType.java
+    │   └── SocialFeedPost.java
+    ├── profile/
+    │   ├── UserProfile.java
+    │   ├── DefaultUserProfile.java
+    │   ├── Interest.java
+    │   └── SortByNumberOfFriendsComparator.java
+    ├── SocialNetwork.java
+    ├── SocialNetworkImpl.java
+    └── Main.java
+```
+    
 ## Getting Started
 
 1. Compile:  
